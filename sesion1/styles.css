@@ -1,0 +1,50 @@
+/* .title__main--pink{
+    color: hotpink;
+}
+
+.myForm__first--border{
+    border: 1px solid black;
+}
+
+.isTest__main--blue{
+    color: rgb(154, 154, 255);
+    background-color: blue;
+}
+
+.firstList__ordered--black{
+    background-color: black;
+    color: white;
+}
+
+.secondList__unordered--yellow{
+    background-color: rgb(235, 173, 3);
+    color: black;
+} */
+
+/* .myBox{
+    border: 1px solid black;
+    background-color: rgb(224, 167, 61);
+    padding: 20px;
+    width: 90px;
+    height: 90px;
+} */
+
+
+/* .iAmFather > .child{
+    width: 90px;
+    height: 90px;
+    margin: 2.5cm;
+    background-color: blueviolet;
+} */
+
+
+/* #myBlock{
+    width: 200px;
+    height: 200px;
+    border: 5px solid  rgb(166, 255, 0);
+} */
+
+.isFather > em{
+
+    font-weight: bold;
+}

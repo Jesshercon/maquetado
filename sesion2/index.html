@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Roboto&display=swap');
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--     
+    <h1>Hello World!</h1>
+
+    <div>
+        <table>
+<tr>
+    <th>Mentor</th>
+    <th>Módulo</th>
+    <th>Fecha de inicio</th>
+</tr>
+
+<tr>
+    <td>Emi</td>
+    <td>Maquetado</td>
+    <td>24 de agosto</td>
+</tr>
+
+<tr>
+    <td>Yael</td>
+    <td>JS</td>
+    <td>15 de septiembre</td>
+</tr>
+
+<tr>
+<td>Alfred</td>
+<td>Back</td>
+<td>30 de Octubre</td>
+</tr>
+
+<tr>
+    <td>Anais</td>
+    <td>React</td>
+    <td>30 de noviembre</td>
+</tr>
+
+        </table>
+    </div>
+
+    <div class="imageTop">
+        <img src="https://picsum.photos/id/237/200/300" alt="coffee blur">
+    </div>
+  
+
+    <header>
+        <div class="html5">
+            <nav>
+             <a href=""></a>
+             <a href=""></a>
+             <a href=""></a>
+         </nav>
+     
+             <aside>
+                 Soy el aside derecho
+             </aside>
+     
+             <main>
+     Soy el Main 
+     
+     <section>
+         <article> Soy un article</article>
+     </section>
+     
+     <aside>
+         Soy el aside derecho
+     </aside>
+     
+             </main>
+    </header>
+    
+     
+    </div> -->
+
+
+
+    <!-- SELECTORES DE ID Y MAS COMUNES -->
+
+    <!-- <div id="id_container">
+
+    </div> -->
+
+    <!-- ---------ARTICLES/MAIN/ASIDE------- -->
+    <!-- <div>
+
+        <header>
+            Header
+            <nav>
+                nav
+            </nav>
+        </header>
+    </div>
+
+    <div class="wholeContent">
+        <aside class="asideLeft">
+            Aside 1
+        </aside>
+
+        <main>
+           <p>MAIN</p> 
+            <div class="articles">
+                <article class="article1"> Article 1 </article>
+                <article class="article2"> Article 2 </article>
+                <article class="article3"> Article 3 </article>
+            </div>
+            
+        </main>
+
+        <aside class="asideRight">
+            Aside 2
+        </aside>
+      
+    </div>
+
+    <footer>
+
+        Footer
+    </footer> -->
+
+
+    <!-- <button class="myButton"> Login</button> -->
+
+
+<!-- <div class="mainBox">
+    <div class="insideCard">
+        <img src="data:image/png;base64,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" alt="Icon Twitter">
+        <h1> TWITTER</h1>
+        <p>Lorem ipsum dolor. Error eius illum temporibus hic dolorem asperiores, nesciunt non molestias sunt repellat.</p>
+        <button> READ MORE</button>
+    </div>
+</div> -->
+
+<!-- <div class="isTest">
+
+</div> -->
+
+
+<div>
+    <button class="iAmButton">
+        Soy otro botón
+    </button>
+</div>
+
+
+</body>
+</html>
