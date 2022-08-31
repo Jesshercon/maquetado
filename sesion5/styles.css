@@ -8,8 +8,8 @@ h1 {
 }
 
 .button__key-frames--hotpink {
-    width: 180px;
-    height: 60px;
+    width: 140px;
+    height: 40px;
     background-color: hotpink;
     color: white;
     margin: 20px;
@@ -50,12 +50,13 @@ animation-duration: 5s;
 .button__linear--blue:hover{
     width: 240px;
 }
-.button__ease-in--green{
+
+.button__ease-in--green {
 background-color: green;
 transition-timing-function: ease-in;
 }
 
-.button__linear--green:hover{
+.button__ease-in--green:hover{
     width: 240px;
 }
 
@@ -64,7 +65,7 @@ transition-timing-function: ease-in;
     transition-timing-function: ease;
 }
 
-.button__linear--hotpink:hover{
+.button__ease--hotpink:hover{
     width: 240px;
 }
 
@@ -74,6 +75,70 @@ transition-timing-function: ease-in;
     transition-timing-function: ease-out;
 }
 
-.button__linear--yellow:hover{
+.button__ease-out--yellow:hover{
     width: 240px;
 }
+
+/* 0-600px */
+/* @media only screen and (max-width:600px){
+    body{
+        background-color: rgb(29, 104, 104);
+    }
+} */
+
+/* 601-768px */
+/* @media only screen and (min-width: 600px){
+    body{
+       background-color: rgb(224, 181, 64); 
+    }
+} */
+
+/* 769-992 */
+/* @media only screen and (min-width:768px){
+    body{
+        background-color: greenyellow;
+    }
+} */
+/* 993-1200 */
+/* @media only screen and (min-width:992px){
+    body{
+        background-color: hotpink;
+    }
+} */
+
+/* 1201----beyond */
+/* @media only screen and (min-width:1200px){
+    body{
+        background-color: rgb(0, 162, 255);
+    }
+} */
+
+/* body{
+    background-color: black;
+} */
+
+.div__card--border-black{
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+}
+
+@media only screen and (max-width: 600px){
+    .div__card--border-black{
+        display: none;
+    }
+    .button__key-frames--hotpink{
+        width: 90px;
+        height: 60px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .div__card--border-black{
+       background-color: hotpink;
+    }
+}
+
