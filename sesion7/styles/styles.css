@@ -1,0 +1,71 @@
+h1 {
+  color: peru;
+  font-weight: bold;
+}
+
+p {
+  color: peru;
+  font-weight: bold;
+}
+
+.div_flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div_flex-container .div__flex-box {
+  width: 90px;
+  height: 90px;
+  border: 2px solid black;
+  background-color: peru;
+  margin: 15px;
+}
+
+.div_flex-container .div__flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div__flex-container--mixin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div__flex-container--mixin .div__flex-box {
+  width: 300px;
+  height: 90px;
+  margin: 15px;
+  background-color: hotpink;
+  border: 1px solid black;
+}
+
+.div__flex-container--emi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div__flex-container--emi .div__flex-box {
+  width: 300px;
+  height: 400px;
+  margin: 30px;
+  background-color: hotpink;
+  border: 1px solid black;
+}
+
+.div__social-media .img__icon-facebook {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+/*# sourceMappingURL=styles.css.map */
